@@ -3,4 +3,32 @@
     display: inline-block;
     height: 80%;
     width: 40%;
+    
+}
+
+.move {
+     position: relative;
+    /* left: -10px; */
+    /* right: -10px; */
+    /* top: -10px; */
+    /* bottom: -10px; */
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+
+.left{
+  position: relative; 
+  left: -10px;
+}
+.right{
+  position: relative;
+  right: -10px;
+}
+.up{
+  position: relative;
+  top: -10px;
+}
+.down{
+  position: relative;
+  bottom: -10px;
 }
